@@ -69,6 +69,16 @@ $ luarocks --lua-version 5.1 --local --tree ~/.local/share/nvim/rocks install te
 # you can change it according to your vim.g.rocks_nvim.rocks_path
 ```
 
+### lazy.nvim
+
+```lua
+require("lazy").setup {
+  spec = {
+    { "Freed-Wu/tellenc.nvim", lazy = false },
+  },
+}
+```
+
 ## Similar Projects
 
 - [vim-fencview](https://github.com/mbbill/fencview): contains a detect
