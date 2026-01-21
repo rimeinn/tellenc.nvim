@@ -1,34 +1,34 @@
 # tellenc.nvim
 
 [![readthedocs](https://shields.io/readthedocs/tellenc-nvim)](https://tellenc-nvim.readthedocs.io)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Freed-Wu/tellenc.nvim/main.svg)](https://results.pre-commit.ci/latest/github/Freed-Wu/tellenc.nvim/main)
-[![github/workflow](https://github.com/Freed-Wu/tellenc.nvim/actions/workflows/main.yml/badge.svg)](https://github.com/Freed-Wu/tellenc.nvim/actions)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/rimeinn/tellenc.nvim/main.svg)](https://results.pre-commit.ci/latest/github/rimeinn/tellenc.nvim/main)
+[![github/workflow](https://github.com/rimeinn/tellenc.nvim/actions/workflows/main.yml/badge.svg)](https://github.com/rimeinn/tellenc.nvim/actions)
 
-[![github/downloads](https://shields.io/github/downloads/Freed-Wu/tellenc.nvim/total)](https://github.com/Freed-Wu/tellenc.nvim/releases)
-[![github/downloads/latest](https://shields.io/github/downloads/Freed-Wu/tellenc.nvim/latest/total)](https://github.com/Freed-Wu/tellenc.nvim/releases/latest)
-[![github/issues](https://shields.io/github/issues/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/issues)
-[![github/issues-closed](https://shields.io/github/issues-closed/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/issues?q=is%3Aissue+is%3Aclosed)
-[![github/issues-pr](https://shields.io/github/issues-pr/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/pulls)
-[![github/issues-pr-closed](https://shields.io/github/issues-pr-closed/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/pulls?q=is%3Apr+is%3Aclosed)
-[![github/discussions](https://shields.io/github/discussions/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/discussions)
-[![github/milestones](https://shields.io/github/milestones/all/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/milestones)
-[![github/forks](https://shields.io/github/forks/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/network/members)
-[![github/stars](https://shields.io/github/stars/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/stargazers)
-[![github/watchers](https://shields.io/github/watchers/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/watchers)
-[![github/contributors](https://shields.io/github/contributors/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/graphs/contributors)。
-[![github/commit-activity](https://shields.io/github/commit-activity/w/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/graphs/commit-activity)
-[![github/last-commit](https://shields.io/github/last-commit/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/commits)
-[![github/release-date](https://shields.io/github/release-date/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/releases/latest)
+[![github/downloads](https://shields.io/github/downloads/rimeinn/tellenc.nvim/total)](https://github.com/rimeinn/tellenc.nvim/releases)
+[![github/downloads/latest](https://shields.io/github/downloads/rimeinn/tellenc.nvim/latest/total)](https://github.com/rimeinn/tellenc.nvim/releases/latest)
+[![github/issues](https://shields.io/github/issues/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/issues)
+[![github/issues-closed](https://shields.io/github/issues-closed/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/issues?q=is%3Aissue+is%3Aclosed)
+[![github/issues-pr](https://shields.io/github/issues-pr/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/pulls)
+[![github/issues-pr-closed](https://shields.io/github/issues-pr-closed/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/pulls?q=is%3Apr+is%3Aclosed)
+[![github/discussions](https://shields.io/github/discussions/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/discussions)
+[![github/milestones](https://shields.io/github/milestones/all/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/milestones)
+[![github/forks](https://shields.io/github/forks/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/network/members)
+[![github/stars](https://shields.io/github/stars/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/stargazers)
+[![github/watchers](https://shields.io/github/watchers/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/watchers)
+[![github/contributors](https://shields.io/github/contributors/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/graphs/contributors)。
+[![github/commit-activity](https://shields.io/github/commit-activity/w/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/graphs/commit-activity)
+[![github/last-commit](https://shields.io/github/last-commit/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/commits)
+[![github/release-date](https://shields.io/github/release-date/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/releases/latest)
 
-[![github/license](https://shields.io/github/license/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim/blob/main/LICENSE)
-[![github/languages](https://shields.io/github/languages/count/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim)
-[![github/languages/top](https://shields.io/github/languages/top/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim)
-[![github/directory-file-count](https://shields.io/github/directory-file-count/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim)
-[![github/code-size](https://shields.io/github/languages/code-size/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim)
-[![github/repo-size](https://shields.io/github/repo-size/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim)
-[![github/v](https://shields.io/github/v/release/Freed-Wu/tellenc.nvim)](https://github.com/Freed-Wu/tellenc.nvim)
+[![github/license](https://shields.io/github/license/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim/blob/main/LICENSE)
+[![github/languages](https://shields.io/github/languages/count/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim)
+[![github/languages/top](https://shields.io/github/languages/top/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim)
+[![github/directory-file-count](https://shields.io/github/directory-file-count/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim)
+[![github/code-size](https://shields.io/github/languages/code-size/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim)
+[![github/repo-size](https://shields.io/github/repo-size/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim)
+[![github/v](https://shields.io/github/v/release/rimeinn/tellenc.nvim)](https://github.com/rimeinn/tellenc.nvim)
 
-[![luarocks](https://img.shields.io/luarocks/v/Freed-Wu/tellenc.nvim)](https://luarocks.org/modules/Freed-Wu/tellenc.nvim)
+[![luarocks](https://img.shields.io/luarocks/v/rimeinn/tellenc.nvim)](https://luarocks.org/modules/rimeinn/tellenc.nvim)
 
 ## neovim 中文输入改进计划
 
@@ -162,7 +162,7 @@ $ luarocks --lua-version 5.1 --local --tree ~/.local/share/nvim/rocks install te
 ```lua
 require("lazy").setup {
   spec = {
-    { "Freed-Wu/tellenc.nvim", lazy = false },
+    { "rimeinn/tellenc.nvim", lazy = false },
   },
 }
 ```
@@ -171,8 +171,8 @@ require("lazy").setup {
 
 ```lua
 local tellenc = require "tellenc".tellenc
-local enc = tellenc "abc"
+print(tellenc "abc")
 -- ascii
-local enc = tellenc "你好"
+print(tellenc "你好")
 -- utf-8
 ```
