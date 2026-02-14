@@ -111,9 +111,35 @@
 
 ### 中文字符编码识别
 
+```sh
+vi -u NONE test.txt
+```
+
+```vim
+:set fileencoding=cp936
+:put ='你好我是一个中国人'
+:wq
+```
+
+```sh
+vi -u NONE test.txt
+```
+
+Expected behaviour:
+
+```text
+你好我是一个中国人
+```
+
+Actual behaviour:
+
+```text
+ÄãºÃÎÒÊÇÒ»¸öÖÐ¹úÈË
+```
+
 在 vim 中 `:edit ++filencoding=ENCODING test.txt` 会用 `ENCODING` 编码打开
 `test.txt` 。如果用户没有显式传入 `++filencoding` ，则按照 `:set fileencodings`
-的顺序查找。这可能会使用错误的编码导致乱码。注意到中文中有很多高频汉字，例如“的”，
+的顺序查找。这可能会使用错误的编码导致乱码。注意到中文中有很多高频汉字，例如“的”、“是”，
 所以可以通过查找高频汉字的编码来预测字符编码。
 [tellenc](https://github.com/adah1972/tellenc) 使一个基于此原理来预测字符编码的
 软件。 tellenc 不能保证预测一定正确，所以一旦预测失败，仍然需要通过
