@@ -10,14 +10,9 @@ function M.callback()
     if vim.o.buftype ~= "" then
         return
     end
-    local fd = io.open(vim.api.nvim_buf_get_name(0))
-    if fd == nil then
-        return
-    end
-    local text = fd:read()
-    fd:close()
-    if text == nil then
-        return
+    local text = vim.api.nvim_buf_get_lines(0, 0, 1, true)[1]
+    if vim.o.fileencoding ~= "utf-8" then
+        text = vim.iconv(text, "utf-8", vim.o.fileencoding)
     end
     local tellenc = require 'tellenc.tellenc'.tellenc
     local enc = tellenc(text)

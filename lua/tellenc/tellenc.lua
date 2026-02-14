@@ -16,7 +16,7 @@ local M = {
 ---@return string enc
 function M.tellenc(text)
     local enc = tellenc(text)
-    enc = M.encs[enc] or enc
+    enc = M.encs[enc] or enc or ""
     return enc
 end
 
