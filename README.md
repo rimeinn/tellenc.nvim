@@ -101,7 +101,7 @@
 
 ### 中文分词跳转
 
-参见 [jieba.nvim](https://github.com/rimeinn/jieba.nvim) 。
+参见 [jieba.nvim](https://github.com/neo451/jieba.nvim) 。
 
 ### 中文 linter/formatter
 
