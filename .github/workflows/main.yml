@@ -40,3 +40,26 @@ jobs:
           extra_luarocks_args: |
             --force
           template: tellenc.nvim-scm-1.rockspec
+      - run: |
+          luarocks install tellenc.nvim
+          luarocks pack tellenc.nvim
+          scripts/update.sh ./*.rock
+        env:
+          LUAROCKS_API_KEY: ${{secrets.LUAROCKS_API_KEY}}
+        if: startsWith(github.ref, 'refs/tags/')
+
+  deploy-luarocks-macos:
+    needs: deploy-luarocks
+    runs-on: macos-latest
+    if: startsWith(github.ref, 'refs/tags/')
+    steps:
+      - uses: leafo/gh-actions-lua@v12
+        with:
+          luaVersion: "5.1"
+      - uses: leafo/gh-actions-luarocks@v6
+      - run: |
+          luarocks install tellenc.nvim
+          luarocks pack tellenc.nvim
+          scripts/update.sh ./*.rock
+        env:
+          LUAROCKS_API_KEY: ${{secrets.LUAROCKS_API_KEY}}
