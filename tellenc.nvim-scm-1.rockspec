@@ -42,9 +42,4 @@ end
 build = {
   type = 'xmake',
   copy_directories = {'scripts', 'plugin'},
-  install = {
-    conf = {
-      ['..'] = 'shell.nix'
-    },
-  },
 }
